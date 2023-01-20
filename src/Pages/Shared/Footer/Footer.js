@@ -3,7 +3,7 @@ import './Footers.css'
 
 const Footer = () => {
     return (
-        <div className='bg-base-100'>
+        <div className='whiteColor'>
        <footer className="footer p-10  ">
   <div className='lg:ml-36'>
   <div className='App'>

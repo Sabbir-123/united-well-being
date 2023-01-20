@@ -4,7 +4,7 @@ const Contact = () => {
     document.title= "Contact";
     return (
         <div>
-            <section className="py-6 dark:bg-gray-800 primaryColor">
+            <section className="py-6 primaryColor">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6">
 			<h1 className="text-4xl font-semibold">Contact Us</h1>
@@ -40,17 +40,17 @@ const Contact = () => {
 				<span className="mb-1">Full name</span>
 				
               <div className='flex'>
-              <input type="text" placeholder="First Name" className="block ashColor w-full p-2 px-5  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
-                <input type="text" placeholder="Last Name" className="block ashColor w-full p-2 px-5  ml-4 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
+              <input type="text" placeholder="First Name" className="block ashColor w-full p-2 px-5  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 " />
+                <input type="text" placeholder="Last Name" className="block ashColor w-full p-2 px-5  ml-4 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 " />
               </div>
 			</label>
 			<label className="block">
 				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="leroy@jenkins.com" className="block ashColor w-full  p-2 px-5  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800" />
+				<input type="email" placeholder="leroy@jenkins.com" className="block ashColor w-full  p-2 px-5  rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400  " />
 			</label>
 			<label className="block">
 				<span className="mb-1">Message</span>
-				<textarea rows="3" className="block w-full ashColor  p-2 px-5  rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"></textarea>
+				<textarea rows="3" className="block w-full ashColor  p-2 px-5  rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400  "></textarea>
 			</label>
 			<button className='backColor w-[200px]  lg:mt-10 md:mt-6 mt-4 lg:px-5 px-3 py-1 rounded text-white'><small>Submit</small></button>
 		</form>
