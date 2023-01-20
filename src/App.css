@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +37,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@font-face {
+  font-family: miama;
+  src: url(../public/Miama.ttf);
+  }
+
+.miama{
+  font-family: miama;
+}
+@font-face {
+  font-family: oohbaby;
+  src: url(../public/OoohBaby-Regular.ttf);
+  }
+
+  .oohbaby{
+    font-family:oohbaby ;
+  }
+
+.primaryColor{
+  color:  #6D2E46 ;
+}
+.backColor{
+  background-color:  #6D2E46 ;
+}
+.ashColor{
+  background-color: #D9D9D9;
+}
+.whiteColor{
+  background-color: #E7E6E4;
+}
+.secondaryColor{
+  color: #1E1E1E
+}
+
+.bodyFont{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

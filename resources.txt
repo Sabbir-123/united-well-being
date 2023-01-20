@@ -1,0 +1,11 @@
+Background: 
+background: #CEBEBE;
+
+Primary color:
+background: #6D2E46;
+
+text color body:
+background: #1E1E1E;
+
+white space:
+background: #E7E6E4;
