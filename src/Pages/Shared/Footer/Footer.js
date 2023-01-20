@@ -7,10 +7,10 @@ const Footer = () => {
        <footer className="footer p-10  ">
   <div className='lg:ml-36'>
   <div className='App'>
-  <h1 className='text-[28px]'>Sayesta Goswami, PhD</h1> 
-<h1 className='mt-1'>CLINICAL PSYCHOLOGIST</h1>
+  <h1 className='text-[28px] leading-8	'>Sayesta Goswami, PhD</h1> 
+<h1 className='mt-1 leading-10	'>CLINICAL PSYCHOLOGIST</h1>
   </div>
- <div className='lg:mt-14 mt-5 md:mt-9'>
+ <div className='lg:mt-12 mt-5 md:mt-9'>
  <div className='flex mb-4'>
  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mt-1">
   <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
