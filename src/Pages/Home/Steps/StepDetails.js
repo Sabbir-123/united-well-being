@@ -4,7 +4,7 @@ const StepDetails = ({ singleDetails }) => {
   const { number, head, Details } = singleDetails;
   return (
     <div>
-      <div className="max-w-xs p-6 rounded-md shadow-md whiteColor h-60 dark:text-gray-50">
+      <div className="max-w-xs p-6 rounded-md shadow-md whiteColor h-60 ">
        <div className="ashColor lg:mx-[115px] mx-[95px] p-2 border-orange-900 border rounded-full grid justify-center ">
         {number}
        </div>
@@ -13,7 +13,7 @@ const StepDetails = ({ singleDetails }) => {
           {head}
           </h2>
         </div>
-        <p className="dark:text-gray-100">
+        <p>
          {Details}
         </p>
       </div>
