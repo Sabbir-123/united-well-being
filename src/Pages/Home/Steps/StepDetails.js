@@ -5,7 +5,7 @@ const StepDetails = ({ singleDetails }) => {
   return (
     <div>
       <div className="max-w-xs p-6 rounded-md shadow-md whiteColor h-60 dark:text-gray-50">
-       <div className="ashColor mx-[115px] p-2 border-orange-900 border rounded-full grid justify-center ">
+       <div className="ashColor lg:mx-[115px] mx-[95px] p-2 border-orange-900 border rounded-full grid justify-center ">
         {number}
        </div>
         <div className="mt-6 mb-2">

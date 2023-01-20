@@ -9,11 +9,11 @@ const CustomerReview = () => {
     <div className="mt-[78px] App">
         <h1 className="lg:text-[42px] text-[30px] lg:mb-10 mb-6  font-bold">Customer Review</h1>
       </div>
-      <div className="whiteColor p-12 lg:mx-[276px] md:mx-[150px] mx-[56px]  rounded shadow-lg shadow-slate-900">
+      <div className="whiteColor lg:p-12 p-8 lg:mx-[276px] md:mx-[150px] mx-[26px]  rounded shadow-lg shadow-slate-900">
         <div className="lg:flex grid grid-cols-1">
           <div className="grid">
-            <img className="h-28 ml-24 lg:ml-2 lg:h-36" src={Ellipse} alt="" />
-            <h1 className="ml-[105px]  lg:mt-[-40px] lg:ml-8 ">
+            <img className="h-28 ml-8 lg:ml-2 lg:h-36" src={Ellipse} alt="" />
+            <h1 className="ml-[50px]  lg:mt-[-40px] lg:ml-8 ">
               <small>Emilly Kinney</small>
             </h1>
           </div>
